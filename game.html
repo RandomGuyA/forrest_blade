@@ -1,0 +1,44 @@
+<html>
+<head>
+	
+	<title>Forrest Blade</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<script type="text/javascript" src="js/mapping.js"></script>
+<body>
+<div id="title"><h1>Forrest Blade</h1></div>
+<div id="container">
+	<div id="sidebar">
+		
+		<a class="menu" href="game.html">Game</a>
+		<a class="menu" href="report.html">Report</a>
+		<a class="menu" href="credits.html">Credits</a>
+        <div id="mute">
+        <label><h3>Mute</h3></label>
+        <input  type="radio" value="Mute" id="sound" onclick="mute();">
+		</div>
+    </div>
+	<div id="main">
+		<div id='wrapper' style='float:left; width: 320px; height: 320px'>
+            <canvas id="canvas"></canvas>
+            <input id="enterScore" type="hidden" ></input>
+         
+            
+        </div>
+        <div id="sidemenu" >
+        <canvas id="side"></canvas>
+        </div>
+		<script type="text/javascript" src="js/canvas.js"></script>    
+        <script type="text/javascript" src="js/pathfinding.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>  
+        <script type="text/javascript" src="js/sprites.js"></script>  
+    	<script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/sidebar.js"></script>
+  </div>
+
+	<div id="footer"></div>
+</div>
+  
+</body>
+</html>

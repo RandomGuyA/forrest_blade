@@ -1,0 +1,135 @@
+* {margin:0; padding:0;}
+body 	{ 
+		margin:auto; 
+		background: url(../images/background/forest.jpg) repeat; 
+		font:76% verdana,tahoma,sans-serif; 
+		color:#F8AF51;
+}
+
+a{text-decoration:none;}
+
+h1 {color:#F8AF51; font-size:3.6em; letter-spacing:-3px; margin:0; text-align:right;}
+
+#title {
+	/*top:10%;*/
+		margin:60px auto -13px;
+		width:700px;
+		}
+#wrapper{
+		border:1px solid #F8AF51;
+		
+		background-color:#000;
+		position:relative;
+		overflow:hidden;
+	}		
+
+
+#sidemenu {border-top:1px solid #F8AF51; 
+			border-bottom:1px solid #F8AF51; 
+			border-right:1px solid #F8AF51;  
+			float:left;  
+			background-color: #E07828; 
+			width:96px; 
+			height:320px
+}
+#container {
+		 background-color:#000;
+		 border:20px solid #F8AF51;
+		 color:#555;
+		 margin:0 auto 15px; 
+		 padding:10px 10px 10px 10px; 
+		 width:700px; 
+		 line-height:1.3em;
+		 }
+#sidebar {
+		float:left;
+		width:60px;
+		
+}
+#enterScore {
+	position:absolute; 
+	left:115px; 
+	top:100px;
+	width:100px;
+	height:40px;
+	color:#F8AF51;
+	background-color:#000040;
+	border: solid 1px #F8AF51;
+	font-size:26px;
+	
+}
+#scoreboard {
+	position:absolute; 
+	left:28px; 
+	top:50px;
+	color:#F8AF51; 
+	background-color:#000040;
+	border: solid 1px #F8AF51;
+	font-size:16px;
+	
+}
+#scoreboard td {
+	padding:8px;	
+}
+
+#main {	
+		float:right;
+		margin:0 20px 0 0;
+		width:450px; 
+		overflow:hidden;
+}
+#footer {
+		clear:both; 
+		color:#aaa;
+}
+
+
+.menu {
+		color:#F8AF51;
+		display:block;
+		font-size:1.7em;
+		font-weight:bold;
+		padding:10px; 
+		width:150px;
+		border:1px solid #F8AF51;
+}
+
+.menu:hover {
+		background-color:#00f;
+		color:#F8AF51;
+		text-decoration:none;
+}
+
+
+
+.credits {color:#777; font-size:0.9em; margin-bottom:0;}
+
+
+#mute	{
+	margin:20px 0 0 0;
+	float:left;
+		width:100px;
+		height:35px;
+		color:#F8AF51;	
+}
+
+#mute input{
+		margin:-15px 0 0 50px;
+		float:left;
+			
+}
+
+.report p		{
+				padding:4px;
+}
+
+.report h3	{
+			margin:5px;
+	
+}
+.report img		{
+				margin:10px 10px 10px 0px;
+}
+
+
+
